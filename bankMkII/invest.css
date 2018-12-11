@@ -1,0 +1,168 @@
+.invest
+{
+	width: 75%;
+	margin: auto;
+	margin-top: 100px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 50px; 
+	box-shadow: 2px 5px 2px #ccc;
+	font-family: 'Lato', sans-serif;
+}
+.invest h2
+{
+	font-size: 25px;
+	padding-bottom: 10px;
+	color: #334b68;
+	display: inline-block;
+	margin-bottom: 0;
+}
+.invest .title
+{
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+}
+.invest .index
+{
+	font-size: 27px;
+	clear: both;
+	padding: 5px;
+}
+.invest .up
+{
+	color: #33cc33;
+}
+.invest .down
+{
+	color: #ff0000;
+}
+.inv-info
+{
+	display: inline-block;
+}
+.invest .news-feed
+{
+	float: right;
+	width: 25%;
+}
+.invest .date
+{
+	font-size: 15px;
+	margin-bottom: 10px;
+	color: #666;
+}
+.invest .article
+{
+	margin: 20px 0;
+	display: inline-block;
+}
+.invest .search
+{
+	margin: 20px 0;
+	clear: both;
+	float: left;
+}
+.invest .left-col
+{
+	float: left;
+}
+.search input[type='text']
+{
+	padding: 5px 15px;
+	font-size: 20px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 500px;
+}
+.search input[type='submit']
+{
+	padding: 5px 15px;
+	font-size: 20px;
+	border-radius: 4px;
+	border: none;
+	width: 100px;
+	transition: background-color 0.5s;
+}
+.invest .middle-col
+{
+	float: left;
+	margin: 0 10px 0 70px;
+	width: 300px;
+}
+.add input[type='text']
+{
+	padding: 5px 10px;
+	font-size: 15px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	width: 200px;
+}
+.add input[type='submit'], input[type='button']
+{
+	padding: 5px 15px;
+	font-size: 15px;
+	border-radius: 4px;
+	border: none;
+	width: 70px;
+	transition: background-color 0.5s;
+}
+input[type='button']
+{
+	width: 200px;
+}
+input[type='submit']:hover, input[type='button']:hover
+{
+	cursor: pointer;
+	background-color: #b3b3b3;
+}
+.extras
+{
+	margin-bottom: 100px;
+}
+.stock-list
+{
+	margin-top: 20px;
+}
+.price
+{
+	clear: both;
+	margin: 5px 0;
+	padding: 3px 8px;
+	border-radius: 3px;
+}
+.price:hover
+{
+	background-color: #ccc;
+	cursor: pointer;
+}
+.close
+{
+	float: right;
+	font-size: 25px;
+	line-height: 0.7;
+	color: #666;
+	transition: color 0.25s;
+}
+.close:hover
+{
+	color: #000;
+}
+.stock-list ul
+{
+	padding: 0;
+}
+.stock-list li
+{
+	list-style-type: none;
+}
+.title a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: #334b68;
+	margin: 0 50px;
+}
+.title a:hover
+{
+	text-decoration: underline;
+}

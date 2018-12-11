@@ -1,0 +1,173 @@
+body
+{
+	margin: auto;
+	width: 1200px;
+	background-color: #e6e6e6;
+}
+header h1
+{
+	margin: 0;
+	padding:  15px 0 0 50px;
+	font-size: 50px;
+	text-shadow: 2px 2px 5px #666;
+	color: #132639;
+	font-family: sans-serif;
+}
+header .top
+{
+	margin: 0;
+	padding: 0;
+	background-color: #a6a6a6; 
+}
+header
+{
+	box-shadow: 0 5px 5px #404040;
+	position: fixed;
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+}
+header blockquote
+{
+	text-align: center;
+	padding: 5px 0 15px 0;
+	color: #262626;
+}
+header ul
+{
+	margin: none;
+	margin-top: -25px;
+	list-style-type: none;
+	overflow: hidden;
+	font-family: sans-serif;
+	background-color: #004466;
+	padding-left: 180px;
+	margin-bottom: 0;
+}
+header li
+{
+	float: left;
+}
+header li a
+{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: #e6e6e6;
+	font-weight: bold;
+}
+header li a:hover
+{
+	background-color: #a6a6a6;
+	color: black;
+}
+.wrapper
+{
+	font-family: sans-serif;
+	padding-top: 150px;
+	background-color: #d6d6d6;
+	height: 100%;
+	min-height: 750px;
+	padding-bottom: 50px;
+}
+.wrapper .ls
+{
+	padding-left: 100px;
+	width: 80%;
+}
+.wrapper ul { list-style-type: none; }
+.wrapper h2 { padding: 15px 0 30px 100px; width: 80%; margin: 0; }
+.wrapper h3 { padding: 15px 0 10px 75px; width: 80%; }
+.wrapper .info { padding-top: 75px; }
+footer
+{
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	display: block;
+	background-color: #004466;
+	width: 1200px;
+	height: 45px;
+	box-shadow: 0 -5px 5px #666;
+}
+footer h4
+{
+	padding: 10px;
+	font-size: 20px;
+	margin: 0;
+}
+.wrapper #cap li
+{
+	padding: 3px 0;
+}
+#general { text-align: center; }
+#general p
+{
+	line-height: 4px;
+	font-size: 18px;
+}
+table
+{
+	border-collapse: collapse;
+	width:100%;
+}
+th, td
+{
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #999;
+}
+#mach h2
+{
+	padding: 15px 0 10px 100px;
+}
+#persons
+{
+	width: 80%;
+	margin: auto;
+}
+form
+{
+	margin-left: 120px;
+}
+input[type=text]
+{
+	font-size: 15px;
+	padding: 7px;
+	width: 200px;
+	margin: 10px 0;
+}
+input[type=file]
+{
+	padding: 7px;
+	margin: 10px 0;
+	border: none;
+	display: block;
+}
+textarea
+{
+	width: 500px;
+	height: 150px;
+}
+
+.wrapper li
+{
+	padding: 3px 0;
+}
+
+#industries
+{
+	width: 450px;
+	float: left;
+}
+#certified
+{
+	width: 450px;
+	float: right;
+}
+
+#cols
+{
+	padding-left: -50px;
+}

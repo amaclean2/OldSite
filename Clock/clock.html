@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="style.css" />
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+	<title>Clock</title>
+</head>
+<body onload="keepTime()">
+	<a href="http://cleverdistraction.com">CleverDistraction</a>
+	<div class="time">
+		<span class="month" id="month"></span><span class="day" id="day"></span><span class="year" id="year"></span><br />
+		<span class="hours" id="hours"></span><span class="minutes" id="minutes"></span><span class="seconds" id="seconds"></span>
+	</div>
+	<script>
+		document.getElementById
+		function keepTime() {
+			var today = new Date(),
+					seconds = (today.getSeconds() <= 9) ? '0' + today.getSeconds() : today.getSeconds(),
+					minutes = (today.getMinutes() <= 9) ? '0' + today.getMinutes() : today.getMinutes(),
+					hours = (today.getHours() > 12) ? today.getHours() - 12 : today.getHours(),
+					day = (today.getDate() <= 9) ? '0' + today.getDate() : today.getDate(),
+					month = (today.getMonth() <= 9) ? '0' + (today.getMonth() + 1) : (today.getMonth() + 1),
+					year = today.getFullYear();
+
+			hours = (hours <= 9) ? '0' + hours : hours; 
+			document.getElementById('seconds').innerHTML = seconds;
+			document.getElementById('minutes').innerHTML = minutes;
+			document.getElementById('hours').innerHTML = hours;
+			document.getElementById('day').innerHTML = day;
+			document.getElementById('month').innerHTML = month;
+			document.getElementById('year').innerHTML = year;
+			setTimeout(keepTime, 500);
+		}
+	</script>
+</body>
+</html>

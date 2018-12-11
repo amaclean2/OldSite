@@ -1,0 +1,219 @@
+body
+{
+	margin: 0;
+	background-color: #fff;
+}
+
+header
+{
+	margin: 0;
+	padding: 0;
+	background-color: #334b68;
+	height: 67px;
+	width: 100%;
+}
+h1
+{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 250px;
+	padding: 0;
+	margin: 0 5px -55px 0;
+	z-index: -2;
+	color: #bccadc;
+}
+
+header h3
+{
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	margin-right: 40px;
+	float: right;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+header h2
+{
+	padding: 0;
+	margin: 0;
+	float: left;
+	font-family: times;
+}
+header a
+{
+	font-size: 97px;
+	line-height: 70%;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	margin-left: 50px;
+}
+
+.wrapper
+{
+	width: 100%;
+}
+
+#bar-chart{padding-left: 4%;}
+
+.dc-legend text
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.nav
+{
+	padding: 0;
+	clear: both;
+	float: left;
+	margin-left: 20%;
+}
+.nav ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.nav li
+{
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 10px;
+}
+.nav li a
+{
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+	color: #000;
+}
+.nav li a:hover
+{
+	color: #666;
+}
+.graphs
+{
+	position: fixed;
+	bottom: 15px;
+	width: 70%;
+	z-index: -1;
+}
+.dep-with
+{
+	position: relative;
+	background-color: #ccc;
+	font-family: 'Lato', sans-serif;
+	width: 250px;
+	border-radius: 4px;
+	margin: 20px 0;
+	padding: 10px;
+	border: 1px solid #bfbfbf;
+	color: #000;
+	display: inline-block;
+}
+.dep-with form
+{
+	margin-top: 18px;
+}
+.dep-with input[type='number'], .dep-with select
+{
+	font-size: 12px;
+	padding: 5px 8px;
+	width: 200px;
+	margin: 2px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+
+}
+.dep-with select
+{
+	width: 218px;
+}
+.dep-with input[type='radio']
+{
+	height: 20px;
+	width: 20px;
+	margin: 3px;
+}
+.dep-with input[type='submit']
+{
+	font-size: 15px;
+	padding: 3px 10px;
+	margin: 5px;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: #651b1b;
+	color: #fff;
+}
+.dep-with input[type='submit']:hover{cursor: pointer;}
+.rad
+{
+	margin-top: -5px;
+	font-size: 15px;
+}
+.close
+{
+	font-size: 15px;
+	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+.close:hover
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.tools
+{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 330px;
+	background-color: #e6e6e6;
+	height: 100vh;
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	padding-left: 30px;
+	border-left: 1px solid #ccc;
+}
+.tools h3
+{
+	margin: 50px 0 20px 0;
+	font-size: 23px;
+}
+.tools a
+{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	transition: all 0.25s;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+.tools a:hover
+{
+	color: #99ff66;
+	background-color: #666;
+}
+.tools li
+{
+	list-style-type: none;
+	padding: 10px 5px;
+}
+.big
+{
+	font-size: 35px;
+	transition: color 0.5s;
+}
+.big:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.tools ul{padding: 0; margin: 0;}
+.tools i, .tools span{padding-right: 10px;}

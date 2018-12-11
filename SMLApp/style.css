@@ -1,0 +1,449 @@
+tr:nth-child(even){ background-color: #f2f2f2; }
+tr:hover{background-color: #e6e6e6; }
+input{ font-size: 15px; }
+body { font-family: helvetica, arial, sans-serif; }
+.header-links ul{margin: 10px;}
+header li { display: inline-block; }
+select{ font-size: 15px; }
+p{margin: 0;}
+#he{font-weight: bold;}
+.shortFields{clear:both; width: 25%;}
+.long-fields{float: left;}
+.selector, h4, input[type='radio']{float: left;}
+.wrapper{ clear: both; }
+.editButtons{ margin-left: 50%; }
+.mill-lathe-selector{padding: 0 0 20px 20px;}
+#table-id{margin-bottom: 15px;}
+li a {display: block;}
+li a:hover{color: #999;}
+ul {list-style-type: none;}
+.dropbuffer{padding-top: 1px;}
+.test-link:hover{background-color: #a6a6a6;}
+.dropdown-content .link:hover, .dropdown-content .link:active{background-color: #a6a6a6;}
+.dropdown:hover .dropdown-content{display: block;}
+.urgent{margin: 4px 0 0 5px; position: absolute; top: 0;}
+.filter:hover{background-color: #bfbfbf;}
+.filter a{color: #365d63;}
+h3{font-weight: 300;}
+header h3:hover{ color: #999;}
+input[type='date'] {height: 17px;}
+
+.pagination{text-align: center; margin-bottom: 50px;}
+.pagination input[type='button']{width: 100px;}
+
+h1
+{
+	float: left;
+	margin: 10px 15px;
+	font-weight: 500;
+	font-size: 40px;
+}
+h2
+{
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+header h3
+{
+	float: right;
+	padding: 5px 8px;
+	margin: 0;
+}
+table
+{
+	border-collapse: collapse;
+	border: 1px solid gray;
+	width: 100%;
+	font-family: sans-serif;
+	margin-bottom: 50px;
+	min-width: 350px;
+}
+.dataDisplay
+{
+	width: 98%;
+	min-width: 350px;
+	margin: auto;
+}
+th
+{
+	background-color: #d9d9d9;
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+td
+{
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+input[type='submit'], input[type='reset'], button, input[type='button']
+{
+	border: none;
+	font-size: 15px;
+	padding: 5px 15px;
+	border-radius: 4px;
+	background-color: #a6a6a6;
+	transition: background-color 0.5s;
+}
+input[type='text'], input[type='password'], input[type='email']
+{
+	width: 32%;
+	min-width: 350px;
+	padding: 5px;
+}
+.search input
+{
+	min-width: 330px;
+	width: 50%;
+	padding: 5px;
+	margin: 10px 0;
+	font-size: 20px;
+}
+.editButtons input[type='text']
+{
+	font-size: 12px;
+	margin-left: 4%;
+	width: 26%;
+	padding: 5px;
+}
+#fixture-label
+{
+	clear: both;
+	padding-top: 20px;
+	margin-bottom: 10px; 
+}
+input[type='radio']
+{
+	width: 25px;
+	height: 25px;
+}
+h4
+{
+	font-size: 20px;
+	font-weight: 300;
+	margin: 4.5px 10px 0 3px;
+}
+#reveal-if-mill, #reveal-if-lathe, #reveal-if-other
+{
+	clear: both;
+	opacity: 0;
+	max-height: 0;
+	overflow: hidden;
+}
+.field
+{
+	position: relative;
+	display: inline-block;
+	width: 33%;
+	min-width: 350px;
+	padding: 8px 0;
+}
+.sf-field
+{
+	position: relative;
+	display: inline-block;
+	padding: 5px 0;
+	width: 100%;
+	max-height: 30px;
+	min-width: 200px;
+	clear: both;
+}
+.sf-field input[type='text']
+{
+	position: absolute;
+	top: 0;
+	margin: 5px 0;
+	font-size: 13px;
+	width: calc(100% - 11px);
+	min-width: 189px;
+	padding: 4px;
+}
+.field input[type='text'], .field input[type='number'], .field textarea, .field input[type='password'], .field input[type='date'], .field input[type='email']
+{
+	position: absolute;
+	top: 0;
+	width: calc(100% - 20px);
+	min-width: 330px;
+	padding: 5px;
+}
+.field select
+{
+	position: absolute;
+	top: 0;
+	width: calc(100% - 8px);
+	padding: 4px;
+}
+.hidden-label
+{
+	position: relative;
+	height: 0;
+	display: none;
+	overflow: hidden;
+	opacity: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.hidden-sf-label
+{
+	display: none;
+	overflow: hidden;
+	opacity: 0;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 7px 0 -18px 5px;
+}
+.tools-textarea textarea
+{
+	font-family: sans-serif;
+	font-size: 13px;
+	resize: none;
+	width: calc(100% - 18px);
+	height: 19px;
+}
+.parts-textarea textarea
+{
+	font-family: sans-serif;
+	width: calc(100% - 18px);
+	min-width: 330px;
+	height: 19px;
+	resize: none;
+}
+.req-textarea textarea
+{
+	font-family: sans-serif;
+	resize: none;
+	width: calc(100% - 18px);
+	height: 19px;
+}
+.end-buttons
+{
+	padding-top: 15px;
+	clear: both;
+}
+
+.dropbtn
+{
+    cursor: pointer;
+    position: relative;
+    background-color: #a6a6a6;
+}
+
+.dropdown
+{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: -27px;
+	display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.dropdown-content .link
+{
+	text-align: center;
+    margin: -1px 0 0 0;
+    width: 100%;
+    font-family: sans-serif;
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	padding: 6px 0;
+	padding: auto;
+	display: block;
+	border-radius: 2px;
+}
+.test-link
+{
+	text-align: center;
+	margin: -1px 0 0 0;
+    width: 130px;
+    font-family: sans-serif;
+	font-size: 15px;
+	background-color: white;
+	color: black;
+	padding: 6px 15px;
+	text-decoration: none;
+	display: block;
+	border-radius: 2px;
+}
+.dropdown-content .void-link
+{
+	text-align: center;
+	margin: -1px 0 0 0;
+	width: 130px;
+	background-color: #ccc;
+	padding: 7px 15px;
+	display: block;
+	border-radius: 2px;
+	border-bottom: 2px solid #808080;
+}
+
+h5
+{
+	font-size: 17px;
+	font-weight: normal;
+	margin: -23px 0 0 30px;
+}
+input[type='checkbox']
+{
+	width: 20px;
+	height: 20px;
+}
+h1, h2, h3{color: #365d63;}
+#print-button, #priority-buttons
+{
+	float: right;
+	display: block;
+	padding-bottom: 10px;
+	margin: 4px;
+}
+
+input[type='button']:hover, input[type='submit']:hover, input[type='reset']:hover
+{
+	background-color: #8c8c8c;
+	cursor: pointer;
+}
+label{cursor: pointer;}
+input[type='text'], input[type='number'], input[type='password'], select, textarea, input[type='date'], input[type='email'] {border:1px solid #bfbfbf; border-radius: 3px;}
+.header-dropdown-content
+{
+	visibility: hidden;
+  	opacity: 0;
+  	position: absolute;
+  	z-index: -1;
+  	-webkit-transition: all 0.3s;
+  	padding: 10px 0;
+}
+.header-dropdown:hover .header-dropdown-content
+{
+	display: inline-block;
+	visibility: visible;
+  	opacity: 1;
+  	z-index: 1;
+  	-webkit-transform: translateY(20px);
+}
+.header-links{float: right;}
+
+#poNum
+{
+	width: calc(100% - 110px);
+	min-width: 200px;
+	margin-right: -5px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+#selectNext
+{
+	position: absolute;
+	top: 0;
+	right: 8px;
+	width: 90px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	text-align: center;
+	padding: 6px;
+}
+#cost-box
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.mobile-header
+{
+	display: none;
+}
+#currency
+{
+	width: 27px;
+	padding: 5px 0;
+	text-align: center;
+	border: 1px solid #bfbfbf;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	background-color: #f2f2f2;
+	float: left;
+	font-size: 15px;
+}
+#cost
+{
+	width: calc(100% - 49px);
+	min-width: 273px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	margin-left: -1px;
+	float: left;
+}
+#hide-button{background-color: #5b9ba4;}
+.end-buttons input[type='submit'], #priority-buttons input[type='submit']{background-color: #47b874;}
+#priority-buttons input[type='button']{background-color: #5b9ba4;}
+.end-buttons input[type='submit']:hover, #priority-buttons input[type='submit']:hover {background-color: #328151;}
+
+.lhot td{background-color: #f94316;}
+.useCheck
+{
+	display: inline-block;
+	padding: 3px 30px 5px 5px;
+}
+
+.check-boxes
+{
+	background-color: #f2f2f2;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+	width: calc(100% - 10px);
+	min-height: 29px;
+	margin-top: -8px;
+}
+.check-boxes h5
+{
+	font-size: 15px;
+	position: relative;
+}
+.check-boxes input[type='checkbox']
+{
+	position: relative;
+	width: 18px;
+	height: 18px;
+}
+@media only screen and (max-width: 750px)
+{
+	table {font-size: 10px;}
+	.dropdown-content {font-size: 15px;}
+	table input[type='submit'], td button
+	{
+		font-size: 10px;
+		padding: 5px 5px;
+	}
+	.search input
+	{
+		font-size: 15px;
+	}
+	.header-links
+	{
+		clear: both;
+		float: right;
+	}
+	.mobile-header
+	{
+		display: inline-block;
+	}
+	.ph{display: none;}
+}

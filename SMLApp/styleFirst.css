@@ -1,0 +1,372 @@
+html
+{
+	height: 100%;
+	background-image: url("smlengineering/4thAxisPart.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #d9d9d9;
+	background-attachment: fixed;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+	overflow: auto;
+	width: 100%;
+}
+h1
+{
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+	margin: 0;
+	font-size: 110px;
+	font-family: times;
+	-webkit-transition: opacity .5s;
+	transition: opacity .5s;
+	z-index: 10;
+	text-align: right;
+}
+h3
+{
+	margin-top: 40px;
+	font-weight: 200;
+	font-size: 25px;
+	color: #4d4d4d;
+}
+.top h1{opacity: 0.3;}
+h1:hover{opacity: 1;}
+h1 a{text-decoration: none; color: #00334d;}
+.buttons{width: 500px; margin-top: 30px;}
+.buttons h3 {color: #000;}
+.scroll-div
+{
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+}
+.wrapper
+{
+	width: 75%;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.70);
+}
+li{list-style-type: none;}
+header ul
+{
+	margin: 0;
+	background-color: #fff;
+	padding-left: 10px;
+	display: inline-block;
+	width: 100%;
+}
+header #small-nav
+{
+	margin: 0;
+	background-color: #fff;
+	display: none;
+	width: 100%;
+}
+#small-nav{}
+#small-nav a{text-decoration: none; margin-top: 2%; padding: 0;}
+#small-nav i{color: #00334d; padding: 8px; font-size: 30px;}
+#small-nav i:hover{background-color: #999; color: #000;}
+header ul li
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 0.7%;
+	-webkit-transition: background-color .5s;
+	transition: background-color .5s;
+}
+header li:hover
+{
+	background-color: #999;
+}
+header ul li a:hover
+{
+	color: #000;
+}
+header a
+{
+	text-decoration: none;
+	font-size: 16px;
+	color: #00334d;
+	padding: 20px 0;
+	-webkit-transition: color, text-shadow .5s;
+	transition: color, text-shadow .5s;
+}
+.db a{font-size: 13px;}
+header
+{
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	animation-name: navbar;
+	animation-duration: 1s;
+}
+@keyframes navbar
+{
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+#cap-part
+{
+	padding-top: 30px;
+	margin-left: 70px;
+	width: 80%;
+}
+#cap-part2
+{
+	width: 80%;
+}
+.info{padding-right: 50px;}
+.info li
+{
+	color: #333;
+	padding: 16px 0;
+	font-size: 18px;
+}
+.plating{margin-left: 60px;}
+.plating ul{padding-top: 10px;}
+.wrapper h2
+{
+	font-size: 30px;
+	font-weight: 500;
+	margin: 0;
+}
+.industries, .machines, .contacts, .pictures
+{
+	width: 85%;
+	margin: auto;
+}
+.db
+{
+	position: fixed;
+	right: 28px;
+	top: 11px;
+	background-color: #00334d;
+	padding: 9px 12px;
+	border-radius: 6px;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+.db a{color: #e6e6e6;}
+.db:hover{background-color: #244366;}
+#processes, #materials, #home, #industries, #machines, #contacts, #images
+{
+	clear: both;
+	margin-bottom: 60px;
+}
+.bullet
+{
+	display: inline;
+	margin: 0 15px 10px 0;
+	padding: 0 8px;
+	box-shadow: 1px 2px 3px #999;
+	border-radius: 4px;
+	float: left;
+	color: white;
+	background-color: #00334d;
+	color: #00334d;
+	cursor: pointer;
+}
+
+#hide{opacity: 0; -webkit-transition: opacity 0.3s; transition: opacity 0.3s;}
+.btn:hover #hide{opacity: 1;}
+.dropdown-content
+{
+	list-style-type: none;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.5s;
+	transition: height 0.5s;
+}
+.dropdown-content li{padding: 5px; font-size: 18px; display: block;}
+.dropdown:hover .dropdown-content
+{
+	visibility: visible;
+	height: 200px;
+}
+.certs
+{
+	margin-top: 10px;
+	display: block;
+	width: 100px;
+	border-radius: 5px;
+	clear: both;
+}
+.certifications
+{
+	position: fixed;
+	right: 30px;
+	top: 70px;
+}
+table
+{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 50px;
+}
+td
+{
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #b2b2b2; }
+
+.motto h3
+{
+	margin: 0;
+	font-weight: 200;
+	font-size: 20px;
+}
+#home-tag, #processes-tag, #materials-tag, #industries-tag, #machines-tag, #contacts-tag, #images-tag
+{
+	width: calc(100% - 100px);
+	background-color: #333;
+	color: #fff;
+	clear: both;
+	padding: 75px 0 50px 100px;
+}
+footer
+{
+	background-color: #666;
+	color: #fff;
+	clear: both;
+	padding: 75px 0 50px 100px;
+}
+footer h3{text-align: left;}
+.quote form{padding-left: 30px;}
+.quote label{padding-top: 10px;}
+input, textarea
+{
+	font-size: 15px;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+	font-family: 'Raleway', sans-serif;
+	width: 300px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #333;
+}
+textarea
+{
+	width: 300px;
+}
+.end-buttons button
+{
+	font-family: 'Raleway', sans-serif;
+	width: 100px;
+	background-color: #00334d;
+	border: none;
+	padding: 5px;
+	font-size: 15px;
+	margin: 5px;
+	border-radius: 3px;
+	color: #fff;
+	transition: background-color 0.5s;
+}
+.end-buttons button:hover
+{
+	cursor: pointer;
+	background-color: #244366;
+}
+.icon-text{padding-left: 8px;}
+.c-list{width: 45%;}
+.c-list p{margin: 0;}
+.centered-images
+{
+	text-align: center;
+}
+.thumb
+{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border: 10px solid #fff;
+	margin: 10px;
+	overflow: hidden;
+	box-shadow: 0px 5px 2px #ccc;
+	background-image: url('test-gallery-image.png');
+	background-size: cover;
+	background-position: center;
+	-webkit-box-shadow: 0px 5px 2px #ccc;
+	transition: all 0.5s;
+}
+.thumb:hover
+{
+	-webkit-transform: scale(3);
+	-ms-transform: scale(3);
+	-transform: scale(3);
+}
+
+.thumb img
+{
+	height: 100%;
+}
+.motto-small{height: 100vh; display: inline-block; width: 80%;}
+.motto-small h2{font-weight: 100; clear: both; padding: 25% 10% 0 10%; margin: 0; font-size: 30px;}
+.button-small{margin: 15px 12%; width: 200px;}
+.button-small a
+{
+	font-size: 15px;
+	margin-top: 5px;
+	text-decoration: none;
+	background-color: #00334d;
+	color: #e6e6e6;
+	display: inline-block;
+	text-align: center;
+	padding: 6px 20px;
+	border-radius: 3px;
+	transition: all 0.5s;
+}
+.db{padding: 6px 9px 8px 9px; right: 10px;}
+.button-small a:hover{background-color: #004466; box-shadow: 0 2px 5px #333;}
+.small-certifications{display: none;}
+.logo-small{ float: right; font-size: 25px; font-family: times; color: #00334d; padding: 7px;}
+button{border: none; background-color: transparent;}
+#db-small{display: none;}
+.logo-big{position: fixed; bottom: 10px; right: 15px;}
+.industries h3{font-weight: 900;}
+.split-div{width: 49%; display: inline-block; vertical-align: top;}
+.uneven{width: 65%;}
+.uneven-small{width: 34%;}
+.info ul{padding: 3%;}
+@media only screen and (max-width: 1150px)
+{
+	.wrapper{width: 100%;}
+	.uneven{width: 100%;}
+	.certifications{display: none;}
+}
+@media only screen and (max-width: 950px)
+{
+	.split-div{width: 100%;}
+	.motto-small h2{padding-top: 50%;}
+	header ul{display: none;}
+	header #small-nav{display: inline-block;}
+	h1{font-size: 250%; right: 2px;}
+	.right-side{text-align: left; float: left;}
+	.plating{width: 100%; margin: 0;}
+	.info{padding: 0;}
+	#home-tag, #processes-tag, #materials-tag, #machines-tag, #industries-tag, #images-tag, #contacts-tag{width: 100%; text-align: center; padding: 40px 0; font-size: 20px;}
+	.small-certifications{display: inline-block; margin: 55px 0 0 1%;}
+	.small-certifications .certs{display: inline-block; width: 10%;}
+	.top{display: none;}
+	#links-list{height: 100vh; width: 60%; position: fixed; z-index: 3; background-color: #000;}
+	#links-list li{margin: 10px;}
+	#links-list a{ color: #e6e6e6; text-decoration: none;}
+	#close-btn{float: right; padding: 10px; color: #fff;}
+	#links-list ul{margin-top: 40px;}
+	#cap-part, #cap-part2{display: none;}
+	#db-small{display: inline-block;}
+	table{font-size: 13px;}
+	.quote form{padding: 0;}
+	footer{padding: 5px;}
+	html{background-attachment: scroll;}
+}

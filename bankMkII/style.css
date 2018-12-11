@@ -1,0 +1,187 @@
+.wrapper
+{
+	font-family: 'Lato', sans-serif;
+}
+body{margin: 0;}
+.wrapper .center-info a
+{
+	padding: 5px 15px;
+	font-size: 18px;
+	margin: 0 10px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #ccff99;
+	border-radius: 4px;
+	color: #333;
+	transition: background-color 0.5s;
+}
+.wrapper h2{margin: 0; padding: 18vh 20px 10px 0; font-size: 40px; color: #334b68; font-family: 'Montserrat', sans-serif;}
+.wrapper p {font-size: 20px; font-family: 'Montserrat', sans-serif; color: #333;}
+.wrapper a:hover
+{
+	background-color: #fff;
+}
+.nav-bar
+{
+	background: #fff;
+	padding-bottom: 8px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+.logo
+{
+	position: fixed;
+	left: 20px;
+	top: 0;
+	font-size: 60px;
+	text-decoration: none;
+	color: #334b68;
+	font-weight: bold;
+	font-family: times;
+}
+.logo:hover
+{
+	color: #4d4d4d;
+}
+.nav-bar ul
+{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.column-group
+{
+	width: 60%;
+	margin: auto;
+	margin-top: 50px;
+}
+.column
+{
+	display: inline-block;
+	width: 30%;
+	padding: 1%;
+}
+.column-group p
+{
+	font-size: 15px;
+}
+.division{height: 100px;}
+.column h3
+{
+	text-align: center;
+}
+.nav-bar li
+{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px 20px;
+}
+.nav-bar li a
+{
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #333;
+	padding-bottom: 7px;
+	transition: all 0.2s;
+}
+.nav-bar li a:hover
+{
+	color: #ccc;
+	border-bottom: 3px solid #334b68;
+}
+.banner
+{
+	height: 60vh;
+	background: linear-gradient(to top right, #999, #bfbfbf);
+	position: relative;
+}
+.center-info
+{
+	width: 50%;
+	margin: auto;
+}
+.banner h1
+{
+	position: absolute;
+	bottom: -60px;
+	right: 0px;
+	font-size: 250px;
+	padding: 0;
+	margin: 0 0 0 0;
+	font-family: times;
+	color: #334b68;
+	opacity: 0.5;
+}
+.log-in
+{
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px #ccc;
+	padding: 20px;
+	margin-top: 120px;
+	font-family: 'Montserrat', sans-serif;
+}
+.log-in input[type='text'], .log-in input[type='password'], .log-in input[type='email'], .create input[type='text'],
+.create input[type='password'], .create input[type='email'], .create input[type='number']
+{
+	font-size: 15px;
+	padding: 5px 15px;
+	border: none;
+	border-bottom: 1px solid #666;
+	margin: 5px;
+	width: 300px;
+	margin-bottom: 20px;
+}
+.create select
+{
+	width: 330px;
+	font-size: 15px;
+	padding: 5px 15px;
+	border: none;
+	border-bottom: 1px solid #666;
+	margin: 5px;
+	margin-bottom: 20px;
+}
+.log-in button, .create button
+{
+	font-size: 15px;
+	padding: 8px 15px;
+	margin: 5px 5px 20px 5px;
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	background-color: #701010;
+}
+.log-in h2, .create h2{margin-bottom: 40px; margin-top: 40px;}
+.log-in button:hover, .create button:hover{cursor: pointer;}
+.sign-up{float: right; text-decoration: none; color: #334b68;}
+.sign-up:hover{text-decoration: underline;}
+.reset{font-size: 12px; text-decoration: none; color: #334b68;}
+.reset:hover{text-decoration: underline;}
+.extras{text-align: center; font-family: 'Montserrat', sans-serif; margin-top: 20px;}
+.extras a{text-decoration: none; padding: 0 20px; color: #333;}
+.extras a:hover{text-decoration: underline;}
+#credits{ position: fixed; bottom: 0; right: 0; margin: 0; padding: 10px; font-size: 20px; font-family: 'Roboto Condensed', sans-serif; color: #333;}
+.create
+{
+	width: 500px;
+	height: 700px;
+	margin: auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 2px 5px 5px #ccc;
+	padding: 20px;
+	margin-top: 120px;
+	font-family: 'Montserrat', sans-serif;
+}
+.account
+{
+	height: 500px;
+}
+
+
